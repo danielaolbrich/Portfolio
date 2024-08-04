@@ -23,6 +23,14 @@ header {
     color: rgba(0, 188, 143, 1);
   }
 
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
   .nameDesign {
     display: flex;
     align-items: center;
