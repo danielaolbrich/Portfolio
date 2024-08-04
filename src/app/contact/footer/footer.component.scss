@@ -1,0 +1,25 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgba(255, 252, 243, 1);
+  height: 69px;
+  font-size: 22px;
+
+  img {
+    height: 40px;
+    width: auto;
+  }
+
+//   .copyLogo {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: space-between;
+//   }
+
+  .socialIcons {
+    display: flex;
+    width: 204px;
+    justify-content: space-between;
+  }
+}
