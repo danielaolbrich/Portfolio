@@ -1,0 +1,15 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 92px;
+    max-width: 1440px;
+    padding: 0 100px;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+    img {
+        height: 30px;
+    }
+
+}
