@@ -11,15 +11,28 @@ footer {
     width: auto;
   }
 
-//   .copyLogo {
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: space-between;
-//   }
+  .iconNoticeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 69px;
+    justify-content: space-between;
+  }
 
   .socialIcons {
     display: flex;
     width: 204px;
     justify-content: space-between;
+  }
+
+  a {
+    font-size: 16px;
+    color: rgba(255, 252, 243, 1);
+    text-decoration: none;
+  }
+
+  a:hover {
+    font-weight: 700;
+    color: rgba(0, 188, 143, 1);
   }
 }
