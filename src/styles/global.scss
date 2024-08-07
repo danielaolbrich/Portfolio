@@ -1,5 +1,33 @@
+:root {
+  --primary: rgba(0, 0, 0, 1);
+  --cream: rgba(255, 252, 243, 1);
+  --highlight: rgba(0, 188, 143, 1);
+}
+
 body {
-    background-color: rgba(255, 252, 243, 1);
-    font-family: 'Overpass';
-    font-weight: 400;
+  background-color: var(--cream);
+  font-family: "Overpass";
+  font-weight: 400;
+}
+
+h1 {
+  font-family: Syne;
+  font-size: 128px;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--highlight);
+}
+
+h3 {
+  font-family: Syne;
+  font-size: 78px;
+  font-weight: 800;
+}
+
+h3:hover {
+    color: var(--highlight);
 }
